@@ -1,0 +1,14 @@
+TEXT-VORTEX
+1. creating a webapp which can summarize the text given by the use
+2. totally mlops based , will use github actions
+3. based on NLP
+4. transformer based model(Hugging face API will be used)
+
+
+outcomes:
+1. this will make it easy to me while creating any other NLP based project
+
+
+learnings:
+- can create a env using conda by doing 'conda create --name <env_name> python=3.10' no need to install any package , just do that and type 
+  conda activate <env_name>
