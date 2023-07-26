@@ -1,0 +1,16 @@
+README.md
+setup.py
+src/TextVortex/__init__.py
+src/TextVortex.egg-info/PKG-INFO
+src/TextVortex.egg-info/SOURCES.txt
+src/TextVortex.egg-info/dependency_links.txt
+src/TextVortex.egg-info/top_level.txt
+src/TextVortex/components/__init__.py
+src/TextVortex/config/__init__.py
+src/TextVortex/config/configuration.py
+src/TextVortex/constants/__init__.py
+src/TextVortex/entity/__init__.py
+src/TextVortex/logging/__init__.py
+src/TextVortex/pipeline/__init__.py
+src/TextVortex/utils/__init__.py
+src/TextVortex/utils/common.py

@@ -11,4 +11,6 @@ outcomes:
 
 learnings:
 - can create a env using conda by doing 'conda create --name <env_name> python=3.10' no need to install any package , just do that and type 
-  conda activate <env_name>
+  -> conda create -n <env name> python=<vesion>
+  -> conda activate <env_name>
+  -> conda info --envs

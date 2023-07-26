@@ -1,0 +1,79 @@
+[2023-07-23 11:14:57,864: INFO: main: welcome to our custom log:]
+[2023-07-25 19:55:18,396: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-25 19:55:18,410: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-25 19:55:18,416: INFO: common: created directory at:artifacts:]
+[2023-07-25 19:55:18,425: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-25 20:01:26,516: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-25 20:01:26,524: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-25 20:01:26,531: INFO: common: created directory at:artifacts:]
+[2023-07-25 20:01:26,540: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-25 20:03:39,253: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-25 20:03:39,263: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-25 20:03:39,270: INFO: common: created directory at:artifacts:]
+[2023-07-25 20:03:39,282: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-25 20:06:11,816: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-25 20:06:11,824: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-25 20:06:11,831: INFO: common: created directory at:artifacts:]
+[2023-07-25 20:06:11,841: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-25 20:06:14,644: INFO: 1147177668: artifacts/data_ingestion/data.zip downloaded! with folowiwng info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8062:179204:A96E4:E4BB5:64BFDDD9
+Accept-Ranges: bytes
+Date: Tue, 25 Jul 2023 14:36:13 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830021-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690295772.450595,VS0,VE827
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 64495e00cda981727ed922f5932dff1bc3dc250a
+Expires: Tue, 25 Jul 2023 14:41:13 GMT
+Source-Age: 0
+
+:]
+[2023-07-25 20:48:10,995: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-25 20:48:11,001: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-25 20:48:11,008: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-25 20:48:11,012: INFO: common: created directory at:artifacts:]
+[2023-07-25 20:48:11,017: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-25 20:48:14,014: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with folowiwng info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8062:179204:A96E4:E4BB5:64BFDDD9
+Accept-Ranges: bytes
+Date: Tue, 25 Jul 2023 15:18:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830039-CCU
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1690298292.225097,VS0,VE359
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 52a35d687abf2a2956f8531f3e68b762c461fff3
+Expires: Tue, 25 Jul 2023 15:23:12 GMT
+Source-Age: 0
+
+:]
+[2023-07-25 20:48:14,645: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
