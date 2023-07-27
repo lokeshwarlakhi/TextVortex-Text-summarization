@@ -77,3 +77,54 @@ Source-Age: 0
 [2023-07-25 20:48:14,645: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
 
  x==============x:]
+[2023-07-26 06:17:31,454: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-26 06:17:31,462: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-26 06:17:31,469: INFO: common: created directory at:artifacts:]
+[2023-07-26 06:17:55,674: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-26 06:17:55,681: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-26 06:17:55,687: INFO: common: created directory at:artifacts:]
+[2023-07-26 06:17:55,695: INFO: common: created directory at:artifacts/data_validation:]
+[2023-07-27 05:52:37,508: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-27 05:52:37,521: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-27 05:52:37,534: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-27 05:52:37,538: INFO: common: created directory at:artifacts:]
+[2023-07-27 05:52:37,542: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-27 05:52:40,016: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with folowiwng info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 0B1E:268F9C:3AE7C:58E40:64C1B8CD
+Accept-Ranges: bytes
+Date: Thu, 27 Jul 2023 00:22:38 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830034-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690417358.133494,VS0,VE600
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: df7c2563eb0ca88418ff2ddd8d48af54ec166e17
+Expires: Thu, 27 Jul 2023 00:27:38 GMT
+Source-Age: 0
+
+:]
+[2023-07-27 05:52:40,507: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-27 05:52:40,508: INFO: main: >>>>>>>> stage data Validation Stage started <<<<<<<<:]
+[2023-07-27 05:52:40,514: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-27 05:52:40,519: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-27 05:52:40,525: INFO: common: created directory at:artifacts:]
+[2023-07-27 05:52:40,532: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-27 05:52:40,540: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-27 05:52:41,034: INFO: main: >>>>>>>>>> stagedata Validation Stage completed <<<<<<<
+
+ x==============x:]
