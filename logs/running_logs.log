@@ -128,3 +128,59 @@ Source-Age: 0
 [2023-07-27 05:52:41,034: INFO: main: >>>>>>>>>> stagedata Validation Stage completed <<<<<<<
 
  x==============x:]
+[2023-07-27 21:41:01,672: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-27 21:41:01,695: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-27 21:41:01,703: INFO: common: created directory at:artifacts:]
+[2023-07-27 21:41:01,711: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-28 18:28:13,874: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-28 18:28:13,892: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-28 18:28:13,905: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-28 18:28:13,908: INFO: common: created directory at:artifacts:]
+[2023-07-28 18:28:13,914: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-28 18:28:16,591: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with folowiwng info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 86D8:166D06:149C86:1C609E:64C3BB67
+Accept-Ranges: bytes
+Date: Fri, 28 Jul 2023 12:58:16 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830032-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690549095.492427,VS0,VE912
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 200422c0c2e7f13cea634f21178137cfc8162f39
+Expires: Fri, 28 Jul 2023 13:03:16 GMT
+Source-Age: 0
+
+:]
+[2023-07-28 18:28:17,197: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-28 18:28:17,198: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-28 18:28:17,206: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-28 18:28:17,212: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-28 18:28:17,217: INFO: common: created directory at:artifacts:]
+[2023-07-28 18:28:17,226: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-28 18:28:17,236: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-28 18:28:17,882: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-28 18:28:17,883: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-28 18:28:17,890: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-28 18:28:17,897: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-28 18:28:17,903: INFO: common: created directory at:artifacts:]
+[2023-07-28 18:28:17,909: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-28 18:28:24,970: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
