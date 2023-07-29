@@ -3,7 +3,7 @@ from TextVortex.logging import logger
 from TextVortex.pipeline.stage_02_data_validation import DatavalidationtTrainingPipeline
 from TextVortex.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
 from TextVortex.pipeline.stage_04_model_trainer import ModelTrainerTrainingPipeline
-
+from TextVortex.pipeline.stage_05_model_evaluation import ModelEvaluationPipeline
 STAGE_NAME = "data ingestion Stage"
 try:
     logger.info(f">>>>>>>> stage {STAGE_NAME} started <<<<<<<<")
@@ -42,6 +42,18 @@ STAGE_NAME = "Model Training Stage"
 try:
     logger.info(f">>>>>>>> stage {STAGE_NAME} started <<<<<<<<")
     model_training = ModelTrainerTrainingPipeline()
+    model_training.main()
+    logger.info(f">>>>>>>>>> stage{STAGE_NAME} completed <<<<<<<\n\n x==============x")
+
+except Exception as e:
+    logger.exception(e)
+    raise e
+
+
+STAGE_NAME = "Model Evaluation Stage"
+try:
+    logger.info(f">>>>>>>> stage {STAGE_NAME} started <<<<<<<<")
+    model_training = ModelEvaluationPipeline()
     model_training.main()
     logger.info(f">>>>>>>>>> stage{STAGE_NAME} completed <<<<<<<\n\n x==============x")
 

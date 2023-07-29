@@ -329,3 +329,228 @@ Source-Age: 0
 [2023-07-29 19:38:55,889: INFO: instantiator: Created a temporary directory at /tmp/tmpqd54jkof:]
 [2023-07-29 19:38:55,892: INFO: instantiator: Writing /tmp/tmpqd54jkof/_remote_module_non_scriptable.py:]
 [2023-07-29 19:41:08,202: INFO: rouge_scorer: Using default tokenizer.:]
+[2023-07-29 22:21:50,141: INFO: instantiator: Created a temporary directory at /tmp/tmpemuj75oo:]
+[2023-07-29 22:21:50,143: INFO: instantiator: Writing /tmp/tmpemuj75oo/_remote_module_non_scriptable.py:]
+[2023-07-29 22:21:50,755: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-29 22:21:50,772: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:21:50,789: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:21:50,794: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:21:50,799: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 22:21:53,660: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with folowiwng info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A02A:3E9B49:1A99A:24C25:64C543A7
+Accept-Ranges: bytes
+Date: Sat, 29 Jul 2023 16:51:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830043-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690649512.209268,VS0,VE802
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 45dcd6e4a283a6e764f9f12ad6455ed5eaa8d254
+Expires: Sat, 29 Jul 2023 16:56:53 GMT
+Source-Age: 0
+
+:]
+[2023-07-29 22:21:54,213: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:21:54,214: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-29 22:21:54,223: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:21:54,230: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:21:54,236: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:21:54,246: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 22:21:54,257: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-29 22:21:54,806: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:21:54,807: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-29 22:21:54,815: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:21:54,822: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:21:54,828: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:21:54,835: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-29 22:22:01,320: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:22:01,321: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-29 22:22:01,330: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:22:01,338: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:22:01,343: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:22:01,348: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-29 22:23:33,251: INFO: instantiator: Created a temporary directory at /tmp/tmp4d2dzfh8:]
+[2023-07-29 22:23:33,252: INFO: instantiator: Writing /tmp/tmp4d2dzfh8/_remote_module_non_scriptable.py:]
+[2023-07-29 22:23:33,791: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-29 22:23:33,800: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:23:33,808: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:23:33,813: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:23:33,822: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 22:23:33,832: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-29 22:23:34,501: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:23:34,502: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-29 22:23:34,510: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:23:34,517: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:23:34,523: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:23:34,531: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 22:23:34,541: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-29 22:23:35,123: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:23:35,124: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-29 22:23:35,133: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:23:35,139: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:23:35,144: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:23:35,154: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-29 22:23:37,521: WARNING: arrow_dataset: Loading cached processed dataset at /mnt/y/mlops_projects/artifacts/data_ingestion/samsum_dataset/train/cache-160cbd58a34d30fa.arrow:]
+[2023-07-29 22:23:37,933: WARNING: arrow_dataset: Loading cached processed dataset at /mnt/y/mlops_projects/artifacts/data_ingestion/samsum_dataset/validation/cache-5673816f9a2bc2cb.arrow:]
+[2023-07-29 22:23:39,263: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:23:39,264: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-29 22:23:39,272: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:23:39,279: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:23:39,283: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:23:39,290: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-29 22:40:27,335: INFO: instantiator: Created a temporary directory at /tmp/tmp3r4297mn:]
+[2023-07-29 22:40:27,336: INFO: instantiator: Writing /tmp/tmp3r4297mn/_remote_module_non_scriptable.py:]
+[2023-07-29 22:40:27,842: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-29 22:40:27,850: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:40:27,859: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:40:27,864: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:40:27,871: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 22:40:27,879: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-29 22:40:28,355: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:40:28,355: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-29 22:40:28,364: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:40:28,371: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:40:28,375: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:40:28,385: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 22:40:28,395: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-29 22:40:28,905: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:40:28,905: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-29 22:40:28,913: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:40:28,920: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:40:28,924: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:40:28,932: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-29 22:40:30,816: WARNING: arrow_dataset: Loading cached processed dataset at /mnt/y/mlops_projects/artifacts/data_ingestion/samsum_dataset/train/cache-160cbd58a34d30fa.arrow:]
+[2023-07-29 22:40:30,846: WARNING: arrow_dataset: Loading cached processed dataset at /mnt/y/mlops_projects/artifacts/data_ingestion/samsum_dataset/test/cache-6eb29a49d0db27ac.arrow:]
+[2023-07-29 22:40:32,310: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:40:32,311: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-29 22:40:32,320: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 22:40:32,326: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:40:32,330: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:40:32,339: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-29 22:56:42,001: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-29 22:56:42,006: INFO: common: yaml file: config\config.yaml loaded sucessfully:]
+[2023-07-29 22:56:42,008: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:56:42,009: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:56:42,009: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 22:56:42,010: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-29 22:56:42,149: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:56:42,149: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-29 22:56:42,152: INFO: common: yaml file: config\config.yaml loaded sucessfully:]
+[2023-07-29 22:56:42,154: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:56:42,155: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:56:42,155: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 22:56:42,156: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-29 22:56:42,295: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:56:42,295: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-29 22:56:42,299: INFO: common: yaml file: config\config.yaml loaded sucessfully:]
+[2023-07-29 22:56:42,301: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:56:42,301: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:56:42,302: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-29 22:56:51,912: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 22:56:51,912: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-29 22:56:51,915: INFO: common: yaml file: config\config.yaml loaded sucessfully:]
+[2023-07-29 22:56:51,917: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 22:56:51,918: INFO: common: created directory at:artifacts:]
+[2023-07-29 22:56:51,918: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-29 23:02:24,286: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.20.1`: Please run `pip install transformers[torch]` or `pip install accelerate -U`:]
+Traceback (most recent call last):
+  File "Y:\mlops_projects\main.py", line 45, in <module>
+    model_training.main()
+  File "Y:\mlops_projects\src\TextVortex\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "Y:\mlops_projects\src\TextVortex\components\model_trainer.py", line 29, in train
+    trainer_args = TrainingArguments(
+                   ^^^^^^^^^^^^^^^^^^
+  File "<string>", line 112, in __init__
+  File "Y:\mlops_projects\mlops\Lib\site-packages\transformers\training_args.py", line 1372, in __post_init__
+    and (self.device.type != "cuda")
+         ^^^^^^^^^^^
+  File "Y:\mlops_projects\mlops\Lib\site-packages\transformers\training_args.py", line 1795, in device
+    return self._setup_devices
+           ^^^^^^^^^^^^^^^^^^^
+  File "Y:\mlops_projects\mlops\Lib\site-packages\transformers\utils\generic.py", line 54, in __get__
+    cached = self.fget(obj)
+             ^^^^^^^^^^^^^^
+  File "Y:\mlops_projects\mlops\Lib\site-packages\transformers\training_args.py", line 1716, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.20.1`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+[2023-07-29 23:05:33,427: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-29 23:05:33,430: INFO: common: yaml file: config\config.yaml loaded sucessfully:]
+[2023-07-29 23:05:33,432: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 23:05:33,433: INFO: common: created directory at:artifacts:]
+[2023-07-29 23:05:33,433: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 23:05:33,433: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-29 23:05:33,635: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 23:05:33,636: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-29 23:05:33,638: INFO: common: yaml file: config\config.yaml loaded sucessfully:]
+[2023-07-29 23:05:33,640: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 23:05:33,641: INFO: common: created directory at:artifacts:]
+[2023-07-29 23:05:33,641: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 23:05:33,641: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-29 23:05:33,774: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 23:05:33,775: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-29 23:05:33,778: INFO: common: yaml file: config\config.yaml loaded sucessfully:]
+[2023-07-29 23:05:33,780: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 23:05:33,781: INFO: common: created directory at:artifacts:]
+[2023-07-29 23:05:33,781: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-29 23:05:35,750: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 23:05:35,751: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-29 23:05:35,755: INFO: common: yaml file: config\config.yaml loaded sucessfully:]
+[2023-07-29 23:05:35,756: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 23:05:35,758: INFO: common: created directory at:artifacts:]
+[2023-07-29 23:05:35,759: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 00:18:47,489: ERROR: main: [Errno 2] No such file or directory: 'artifacts/model_trainer\\tokenizer \\tokenizer_config.json':]
+Traceback (most recent call last):
+  File "Y:\mlops_projects\main.py", line 45, in <module>
+    model_training.main()
+  File "Y:\mlops_projects\src\TextVortex\pipeline\stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "Y:\mlops_projects\src\TextVortex\components\model_trainer.py", line 44, in train
+    tokenizer.save_pretrained(os.path.join(self.config.root_dir,"tokenizer "))
+  File "Y:\mlops_projects\mlops\Lib\site-packages\transformers\tokenization_utils_base.py", line 2207, in save_pretrained
+    with open(tokenizer_config_file, "w", encoding="utf-8") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/model_trainer\\tokenizer \\tokenizer_config.json'
