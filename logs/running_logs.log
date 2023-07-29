@@ -184,3 +184,148 @@ Source-Age: 0
 [2023-07-28 18:28:24,970: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
 
  x==============x:]
+[2023-07-28 18:54:38,487: INFO: instantiator: Created a temporary directory at /tmp/tmph_brz08i:]
+[2023-07-28 18:54:38,491: INFO: instantiator: Writing /tmp/tmph_brz08i/_remote_module_non_scriptable.py:]
+[2023-07-28 19:22:02,593: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-28 19:22:02,610: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-28 19:22:02,617: INFO: common: created directory at:artifacts:]
+[2023-07-28 19:22:02,625: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-28 19:24:10,842: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-28 19:24:10,858: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-28 19:24:10,865: INFO: common: created directory at:artifacts:]
+[2023-07-28 19:24:10,870: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-28 19:25:37,474: INFO: instantiator: Created a temporary directory at /tmp/tmp82bl2agt:]
+[2023-07-28 19:25:37,477: INFO: instantiator: Writing /tmp/tmp82bl2agt/_remote_module_non_scriptable.py:]
+[2023-07-28 19:25:40,052: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-28 19:25:40,061: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-28 19:25:40,067: INFO: common: created directory at:artifacts:]
+[2023-07-28 19:25:40,077: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-29 12:32:36,109: INFO: instantiator: Created a temporary directory at /tmp/tmpjljycr_j:]
+[2023-07-29 12:32:36,111: INFO: instantiator: Writing /tmp/tmpjljycr_j/_remote_module_non_scriptable.py:]
+[2023-07-29 12:32:36,863: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-29 12:32:36,886: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 12:32:36,912: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 12:32:36,918: INFO: common: created directory at:artifacts:]
+[2023-07-29 12:32:36,930: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 12:32:41,404: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with folowiwng info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 90B6:2B252C:16D8E:20680:64C4B7C0
+Accept-Ranges: bytes
+Date: Sat, 29 Jul 2023 07:02:37 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830030-CCU
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1690614157.285764,VS0,VE311
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d9f9e307b8ffec43c2cda266c3ce9cedb543275f
+Expires: Sat, 29 Jul 2023 07:07:37 GMT
+Source-Age: 0
+
+:]
+[2023-07-29 12:32:41,997: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 12:32:41,998: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-29 12:32:42,007: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 12:32:42,016: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 12:32:42,021: INFO: common: created directory at:artifacts:]
+[2023-07-29 12:32:42,031: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-29 12:32:42,042: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-29 12:32:42,653: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 12:32:42,653: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-29 12:32:42,662: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 12:32:42,670: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 12:32:42,676: INFO: common: created directory at:artifacts:]
+[2023-07-29 12:32:42,683: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-29 12:32:50,064: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 12:32:50,066: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-29 12:32:50,075: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 12:32:50,084: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 12:32:50,091: INFO: common: created directory at:artifacts:]
+[2023-07-29 12:32:50,100: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-29 12:55:21,134: INFO: main: >>>>>>>>>> stageModel Training Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-29 15:53:15,835: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 15:53:15,854: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 15:53:15,862: INFO: common: created directory at:artifacts:]
+[2023-07-29 15:53:15,870: INFO: common: created directory at:artifacts/model_evauation:]
+[2023-07-29 15:55:39,178: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 15:55:39,188: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 15:55:39,194: INFO: common: created directory at:artifacts:]
+[2023-07-29 15:55:39,201: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 17:59:14,939: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 17:59:14,949: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 17:59:14,956: INFO: common: created directory at:artifacts:]
+[2023-07-29 17:59:14,969: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 18:01:04,335: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 18:01:04,344: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 18:01:04,351: INFO: common: created directory at:artifacts:]
+[2023-07-29 18:01:04,364: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 18:08:39,183: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 18:08:39,192: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 18:08:39,199: INFO: common: created directory at:artifacts:]
+[2023-07-29 18:08:39,209: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 18:47:53,669: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 18:47:53,693: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 18:47:53,703: INFO: common: created directory at:artifacts:]
+[2023-07-29 18:47:53,715: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 18:55:51,769: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 18:55:51,778: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 18:55:51,785: INFO: common: created directory at:artifacts:]
+[2023-07-29 18:55:51,797: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 18:59:19,401: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 18:59:19,410: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 18:59:19,416: INFO: common: created directory at:artifacts:]
+[2023-07-29 18:59:19,426: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 18:59:55,134: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 18:59:55,143: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 18:59:55,150: INFO: common: created directory at:artifacts:]
+[2023-07-29 18:59:55,160: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 19:00:07,236: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 19:00:07,246: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 19:00:07,253: INFO: common: created directory at:artifacts:]
+[2023-07-29 19:00:07,263: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 19:02:36,837: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 19:02:36,846: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 19:02:36,854: INFO: common: created directory at:artifacts:]
+[2023-07-29 19:02:36,867: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 19:33:39,605: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 19:33:39,650: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 19:33:39,682: INFO: common: created directory at:artifacts:]
+[2023-07-29 19:33:39,742: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 19:35:10,795: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 19:35:10,809: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 19:35:10,821: INFO: common: created directory at:artifacts:]
+[2023-07-29 19:35:10,836: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 19:36:10,292: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 19:36:10,305: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 19:36:10,316: INFO: common: created directory at:artifacts:]
+[2023-07-29 19:36:10,331: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 19:38:23,349: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 19:38:23,364: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 19:38:23,374: INFO: common: created directory at:artifacts:]
+[2023-07-29 19:38:23,388: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 19:38:54,963: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-29 19:38:54,972: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-29 19:38:54,979: INFO: common: created directory at:artifacts:]
+[2023-07-29 19:38:54,991: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-07-29 19:38:55,889: INFO: instantiator: Created a temporary directory at /tmp/tmpqd54jkof:]
+[2023-07-29 19:38:55,892: INFO: instantiator: Writing /tmp/tmpqd54jkof/_remote_module_non_scriptable.py:]
+[2023-07-29 19:41:08,202: INFO: rouge_scorer: Using default tokenizer.:]
