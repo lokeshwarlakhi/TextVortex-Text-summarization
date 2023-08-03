@@ -14,3 +14,6 @@ learnings:
   -> conda create -n <env name> python=<vesion>
   -> conda activate <env_name>
   -> conda info --envs
+
+
+uri: 071005780004.dkr.ecr.eu-north-1.amazonaws.com/text-v
