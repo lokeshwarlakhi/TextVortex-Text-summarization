@@ -53,16 +53,16 @@ except Exception as e:
 
 #     # Your code that uses GPU
 
-# STAGE_NAME = "Model Training Stage"
-# try:
-#     logger.info(f">>>>>>>> stage {STAGE_NAME} started <<<<<<<<")
-#     model_training = ModelTrainerTrainingPipeline()
-#     model_training.main()
-#     logger.info(f">>>>>>>>>> stage{STAGE_NAME} completed <<<<<<<\n\n x==============x")
+STAGE_NAME = "Model Training Stage"
+try:
+    logger.info(f">>>>>>>> stage {STAGE_NAME} started <<<<<<<<")
+    model_training = ModelTrainerTrainingPipeline()
+    model_training.main()
+    logger.info(f">>>>>>>>>> stage{STAGE_NAME} completed <<<<<<<\n\n x==============x")
 
-# except Exception as e:
-#     logger.exception(e)
-#     raise e
+except Exception as e:
+    logger.exception(e)
+    raise e
 
 
 #     # Check if memory limit exceeded

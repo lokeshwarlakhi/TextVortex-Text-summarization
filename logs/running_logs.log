@@ -1378,3 +1378,533 @@ AttributeError: 'function' object has no attribute 'tokenizer_path'
 [2023-08-03 17:32:29,184: INFO: main: >>>>>>>>>> stageModel Evaluation Stage completed <<<<<<<
 
  x==============x:]
+[2023-08-03 17:55:15,091: INFO: instantiator: Created a temporary directory at /tmp/tmphholn8zr:]
+[2023-08-03 17:55:15,091: INFO: instantiator: Writing /tmp/tmphholn8zr/_remote_module_non_scriptable.py:]
+[2023-08-03 17:55:15,265: INFO: server: Started server process [52697]:]
+[2023-08-03 17:55:15,265: INFO: on: Waiting for application startup.:]
+[2023-08-03 17:55:15,265: INFO: on: Application startup complete.:]
+[2023-08-03 17:56:53,379: INFO: server: Shutting down:]
+[2023-08-03 17:56:53,481: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 17:56:53,481: INFO: on: Application shutdown complete.:]
+[2023-08-03 17:56:53,481: INFO: server: Finished server process [52697]:]
+[2023-08-03 17:56:55,162: INFO: instantiator: Created a temporary directory at /tmp/tmp637175_8:]
+[2023-08-03 17:56:55,162: INFO: instantiator: Writing /tmp/tmp637175_8/_remote_module_non_scriptable.py:]
+[2023-08-03 17:56:55,336: INFO: server: Started server process [53231]:]
+[2023-08-03 17:56:55,336: INFO: on: Waiting for application startup.:]
+[2023-08-03 17:56:55,336: INFO: on: Application startup complete.:]
+[2023-08-03 17:56:56,444: INFO: server: Shutting down:]
+[2023-08-03 17:56:56,545: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 17:56:56,546: INFO: on: Application shutdown complete.:]
+[2023-08-03 17:56:56,546: INFO: server: Finished server process [53231]:]
+[2023-08-03 17:58:02,969: INFO: instantiator: Created a temporary directory at /tmp/tmpzbhttl04:]
+[2023-08-03 17:58:02,969: INFO: instantiator: Writing /tmp/tmpzbhttl04/_remote_module_non_scriptable.py:]
+[2023-08-03 17:58:03,154: INFO: server: Started server process [53700]:]
+[2023-08-03 17:58:03,154: INFO: on: Waiting for application startup.:]
+[2023-08-03 17:58:03,154: INFO: on: Application startup complete.:]
+[2023-08-03 17:58:07,987: INFO: server: Shutting down:]
+[2023-08-03 17:58:08,088: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 17:58:08,089: INFO: on: Application shutdown complete.:]
+[2023-08-03 17:58:08,089: INFO: server: Finished server process [53700]:]
+[2023-08-03 17:58:09,849: INFO: instantiator: Created a temporary directory at /tmp/tmp82sgnw0a:]
+[2023-08-03 17:58:09,849: INFO: instantiator: Writing /tmp/tmp82sgnw0a/_remote_module_non_scriptable.py:]
+[2023-08-03 17:58:10,026: INFO: server: Started server process [53767]:]
+[2023-08-03 17:58:10,026: INFO: on: Waiting for application startup.:]
+[2023-08-03 17:58:10,026: INFO: on: Application startup complete.:]
+[2023-08-03 17:58:10,833: INFO: server: Shutting down:]
+[2023-08-03 17:58:10,934: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 17:58:10,934: INFO: on: Application shutdown complete.:]
+[2023-08-03 17:58:10,935: INFO: server: Finished server process [53767]:]
+[2023-08-03 17:58:12,690: INFO: instantiator: Created a temporary directory at /tmp/tmpx7uoxrzd:]
+[2023-08-03 17:58:12,690: INFO: instantiator: Writing /tmp/tmpx7uoxrzd/_remote_module_non_scriptable.py:]
+[2023-08-03 17:58:12,956: INFO: server: Started server process [53801]:]
+[2023-08-03 17:58:12,956: INFO: on: Waiting for application startup.:]
+[2023-08-03 17:58:12,956: INFO: on: Application startup complete.:]
+[2023-08-03 17:58:47,878: INFO: server: Shutting down:]
+[2023-08-03 17:58:47,979: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 17:58:47,979: INFO: on: Application shutdown complete.:]
+[2023-08-03 17:58:47,980: INFO: server: Finished server process [53801]:]
+[2023-08-03 17:59:57,660: INFO: instantiator: Created a temporary directory at /tmp/tmp2b1othsv:]
+[2023-08-03 17:59:57,661: INFO: instantiator: Writing /tmp/tmp2b1othsv/_remote_module_non_scriptable.py:]
+[2023-08-03 17:59:57,844: INFO: server: Started server process [54487]:]
+[2023-08-03 17:59:57,845: INFO: on: Waiting for application startup.:]
+[2023-08-03 17:59:57,845: INFO: on: Application startup complete.:]
+[2023-08-03 18:01:55,063: INFO: server: Shutting down:]
+[2023-08-03 18:01:55,164: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:01:55,165: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:01:55,165: INFO: server: Finished server process [54487]:]
+[2023-08-03 18:01:56,937: INFO: instantiator: Created a temporary directory at /tmp/tmp8_1nv4ol:]
+[2023-08-03 18:01:56,937: INFO: instantiator: Writing /tmp/tmp8_1nv4ol/_remote_module_non_scriptable.py:]
+[2023-08-03 18:01:57,138: INFO: server: Started server process [54831]:]
+[2023-08-03 18:01:57,138: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:01:57,138: INFO: on: Application startup complete.:]
+[2023-08-03 18:02:00,963: INFO: server: Shutting down:]
+[2023-08-03 18:02:01,064: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:02:01,064: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:02:01,064: INFO: server: Finished server process [54831]:]
+[2023-08-03 18:02:09,461: INFO: instantiator: Created a temporary directory at /tmp/tmpasvjlfs2:]
+[2023-08-03 18:02:09,462: INFO: instantiator: Writing /tmp/tmpasvjlfs2/_remote_module_non_scriptable.py:]
+[2023-08-03 18:02:09,648: INFO: server: Started server process [54959]:]
+[2023-08-03 18:02:09,648: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:02:09,648: INFO: on: Application startup complete.:]
+[2023-08-03 18:02:10,656: INFO: server: Shutting down:]
+[2023-08-03 18:02:10,757: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:02:10,758: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:02:10,758: INFO: server: Finished server process [54959]:]
+[2023-08-03 18:02:12,566: INFO: instantiator: Created a temporary directory at /tmp/tmpw1nyhar1:]
+[2023-08-03 18:02:12,566: INFO: instantiator: Writing /tmp/tmpw1nyhar1/_remote_module_non_scriptable.py:]
+[2023-08-03 18:02:12,751: INFO: server: Started server process [54995]:]
+[2023-08-03 18:02:12,752: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:02:12,752: INFO: on: Application startup complete.:]
+[2023-08-03 18:02:15,270: INFO: server: Shutting down:]
+[2023-08-03 18:02:15,371: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:02:15,372: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:02:15,372: INFO: server: Finished server process [54995]:]
+[2023-08-03 18:02:17,154: INFO: instantiator: Created a temporary directory at /tmp/tmpy1isjwzz:]
+[2023-08-03 18:02:17,154: INFO: instantiator: Writing /tmp/tmpy1isjwzz/_remote_module_non_scriptable.py:]
+[2023-08-03 18:02:17,328: INFO: server: Started server process [55021]:]
+[2023-08-03 18:02:17,329: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:02:17,329: INFO: on: Application startup complete.:]
+[2023-08-03 18:02:19,143: INFO: server: Shutting down:]
+[2023-08-03 18:02:19,244: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:02:19,245: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:02:19,245: INFO: server: Finished server process [55021]:]
+[2023-08-03 18:02:23,640: INFO: instantiator: Created a temporary directory at /tmp/tmplgx56oxp:]
+[2023-08-03 18:02:23,640: INFO: instantiator: Writing /tmp/tmplgx56oxp/_remote_module_non_scriptable.py:]
+[2023-08-03 18:02:23,830: INFO: server: Started server process [55136]:]
+[2023-08-03 18:02:23,830: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:02:23,830: INFO: on: Application startup complete.:]
+[2023-08-03 18:02:25,843: INFO: server: Shutting down:]
+[2023-08-03 18:02:25,944: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:02:25,945: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:02:25,945: INFO: server: Finished server process [55136]:]
+[2023-08-03 18:02:29,988: INFO: instantiator: Created a temporary directory at /tmp/tmpm5rn5kgb:]
+[2023-08-03 18:02:29,989: INFO: instantiator: Writing /tmp/tmpm5rn5kgb/_remote_module_non_scriptable.py:]
+[2023-08-03 18:02:30,189: INFO: server: Started server process [55194]:]
+[2023-08-03 18:02:30,190: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:02:30,190: INFO: on: Application startup complete.:]
+[2023-08-03 18:02:37,037: INFO: server: Shutting down:]
+[2023-08-03 18:02:37,138: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:02:37,138: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:02:37,138: INFO: server: Finished server process [55194]:]
+[2023-08-03 18:02:38,835: INFO: instantiator: Created a temporary directory at /tmp/tmpdbk20pv_:]
+[2023-08-03 18:02:38,835: INFO: instantiator: Writing /tmp/tmpdbk20pv_/_remote_module_non_scriptable.py:]
+[2023-08-03 18:02:39,003: INFO: server: Started server process [55295]:]
+[2023-08-03 18:02:39,004: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:02:39,004: INFO: on: Application startup complete.:]
+[2023-08-03 18:02:41,118: INFO: server: Shutting down:]
+[2023-08-03 18:02:41,219: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:02:41,220: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:02:41,220: INFO: server: Finished server process [55295]:]
+[2023-08-03 18:02:43,193: INFO: instantiator: Created a temporary directory at /tmp/tmpzs0upsws:]
+[2023-08-03 18:02:43,193: INFO: instantiator: Writing /tmp/tmpzs0upsws/_remote_module_non_scriptable.py:]
+[2023-08-03 18:02:43,384: INFO: server: Started server process [55340]:]
+[2023-08-03 18:02:43,384: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:02:43,384: INFO: on: Application startup complete.:]
+[2023-08-03 18:03:07,848: INFO: server: Shutting down:]
+[2023-08-03 18:03:07,949: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:03:07,949: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:03:07,949: INFO: server: Finished server process [55340]:]
+[2023-08-03 18:03:09,811: INFO: instantiator: Created a temporary directory at /tmp/tmpo3mx6low:]
+[2023-08-03 18:03:09,812: INFO: instantiator: Writing /tmp/tmpo3mx6low/_remote_module_non_scriptable.py:]
+[2023-08-03 18:03:10,005: INFO: server: Started server process [55444]:]
+[2023-08-03 18:03:10,005: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:03:10,005: INFO: on: Application startup complete.:]
+[2023-08-03 18:03:17,758: INFO: server: Shutting down:]
+[2023-08-03 18:03:17,859: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:03:17,860: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:03:17,860: INFO: server: Finished server process [55444]:]
+[2023-08-03 18:03:24,860: INFO: instantiator: Created a temporary directory at /tmp/tmpkvpv8xfz:]
+[2023-08-03 18:03:24,862: INFO: instantiator: Writing /tmp/tmpkvpv8xfz/_remote_module_non_scriptable.py:]
+[2023-08-03 18:03:25,031: INFO: server: Started server process [55567]:]
+[2023-08-03 18:03:25,031: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:03:25,031: INFO: on: Application startup complete.:]
+[2023-08-03 18:03:25,031: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit):]
+[2023-08-03 18:05:23,212: INFO: server: Shutting down:]
+[2023-08-03 18:05:23,313: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 18:05:23,314: INFO: on: Application shutdown complete.:]
+[2023-08-03 18:05:23,314: INFO: server: Finished server process [55567]:]
+[2023-08-03 18:06:04,077: INFO: instantiator: Created a temporary directory at /tmp/tmpi2wh2i92:]
+[2023-08-03 18:06:04,077: INFO: instantiator: Writing /tmp/tmpi2wh2i92/_remote_module_non_scriptable.py:]
+[2023-08-03 18:06:04,254: INFO: server: Started server process [56225]:]
+[2023-08-03 18:06:04,254: INFO: on: Waiting for application startup.:]
+[2023-08-03 18:06:04,254: INFO: on: Application startup complete.:]
+[2023-08-03 18:06:04,254: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit):]
+[2023-08-03 18:06:32,340: INFO: instantiator: Created a temporary directory at /tmp/tmpc1kn3ylu:]
+[2023-08-03 18:06:32,340: INFO: instantiator: Writing /tmp/tmpc1kn3ylu/_remote_module_non_scriptable.py:]
+[2023-08-03 18:06:32,468: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-08-03 18:06:32,470: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:06:32,471: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:06:32,471: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:06:32,471: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 18:06:34,766: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with folowiwng info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D39E:28187:186771:2130EA:64CB9F50
+Accept-Ranges: bytes
+Date: Thu, 03 Aug 2023 12:36:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830024-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1691066193.106028,VS0,VE914
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 81c743255461b56b5d746c24bd7fec72c307d607
+Expires: Thu, 03 Aug 2023 12:41:34 GMT
+Source-Age: 1
+
+:]
+[2023-08-03 18:06:34,901: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 18:06:34,901: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-08-03 18:06:34,902: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:06:34,903: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:06:34,903: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:06:34,903: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 18:06:34,903: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 18:06:35,005: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 18:06:35,005: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-08-03 18:06:35,006: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:06:35,007: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:06:35,007: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:06:35,007: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-08-03 18:06:37,967: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 18:06:37,967: INFO: main: >>>>>>>> stage Model Evaluation Stage started <<<<<<<<:]
+[2023-08-03 18:06:37,969: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:06:37,969: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:06:37,969: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:06:37,970: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-08-03 18:06:37,970: ERROR: main: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/main.py", line 79, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/pipeline/stage_05_model_evaluation.py", line 14, in main
+    model_evaluation_config.evaluate()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/components/model_evaluation.py", line 59, in evaluate
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 652, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 496, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/utils/hub.py", line 417, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 110, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 158, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+[2023-08-03 18:07:35,782: INFO: instantiator: Created a temporary directory at /tmp/tmpav1hetmq:]
+[2023-08-03 18:07:35,783: INFO: instantiator: Writing /tmp/tmpav1hetmq/_remote_module_non_scriptable.py:]
+[2023-08-03 18:07:35,903: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-08-03 18:07:35,906: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:07:35,907: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:07:35,907: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:07:35,907: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 18:07:36,859: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with folowiwng info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: D39E:28187:186771:2130EA:64CB9F50
+Accept-Ranges: bytes
+Date: Thu, 03 Aug 2023 12:37:36 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830048-CCU
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1691066256.114110,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0bf2c499be55414e8d64338b29057055935a9d6f
+Expires: Thu, 03 Aug 2023 12:42:36 GMT
+Source-Age: 63
+
+:]
+[2023-08-03 18:07:36,990: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 18:07:36,990: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-08-03 18:07:36,991: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:07:36,992: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:07:36,992: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:07:36,992: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 18:07:36,992: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 18:07:37,097: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 18:07:37,097: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-08-03 18:07:37,099: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:07:37,100: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:07:37,100: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:07:37,100: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-08-03 18:07:39,615: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 18:07:39,615: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-08-03 18:07:39,617: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:07:39,618: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:07:39,618: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:07:39,618: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-08-03 18:39:46,324: INFO: main: >>>>>>>>>> stageModel Training Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 18:39:46,325: INFO: main: >>>>>>>> stage Model Evaluation Stage started <<<<<<<<:]
+[2023-08-03 18:39:46,329: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:39:46,330: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:39:46,331: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:39:46,331: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-08-03 18:39:46,334: ERROR: main: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/main.py", line 79, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/pipeline/stage_05_model_evaluation.py", line 14, in main
+    model_evaluation_config.evaluate()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/components/model_evaluation.py", line 59, in evaluate
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 652, in from_pretrained
+    tokenizer_config = get_tokenizer_config(pretrained_model_name_or_path, **kwargs)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/models/auto/tokenization_auto.py", line 496, in get_tokenizer_config
+    resolved_config_file = cached_file(
+                           ^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/utils/hub.py", line 417, in cached_file
+    resolved_file = hf_hub_download(
+                    ^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 110, in _inner_fn
+    validate_repo_id(arg_value)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/huggingface_hub/utils/_validators.py", line 158, in validate_repo_id
+    raise HFValidationError(
+huggingface_hub.utils._validators.HFValidationError: Repo id must be in the form 'repo_name' or 'namespace/repo_name': 'artifacts/model_trainer/tokenizer'. Use `repo_type` argument if needed.
+[2023-08-03 18:46:32,390: INFO: instantiator: Created a temporary directory at /tmp/tmpcr0byast:]
+[2023-08-03 18:46:32,390: INFO: instantiator: Writing /tmp/tmpcr0byast/_remote_module_non_scriptable.py:]
+[2023-08-03 18:46:32,583: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-08-03 18:46:32,585: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:46:32,586: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:46:32,586: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:46:32,586: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 18:46:32,586: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 18:46:32,695: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 18:46:32,695: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-08-03 18:46:32,696: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:46:32,697: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:46:32,697: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:46:32,697: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 18:46:32,697: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 18:46:32,798: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 18:46:32,798: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-08-03 18:46:32,800: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:46:32,801: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:46:32,801: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:46:32,801: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-08-03 18:46:34,340: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 18:46:34,340: INFO: main: >>>>>>>> stage Model Evaluation Stage started <<<<<<<<:]
+[2023-08-03 18:46:34,342: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 18:46:34,342: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 18:46:34,342: INFO: common: created directory at:artifacts:]
+[2023-08-03 18:46:34,342: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-08-03 18:49:39,715: INFO: rouge_scorer: Using default tokenizer.:]
+[2023-08-03 18:49:39,835: INFO: main: >>>>>>>>>> stageModel Evaluation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 19:05:36,044: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 19:05:36,047: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 19:05:36,047: INFO: common: created directory at:artifacts:]
+[2023-08-03 19:05:36,047: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-08-03 19:05:44,121: ERROR: h11_impl: Exception in ASGI application
+:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/app.py", line 36, in predict_route
+    raise e
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/app.py", line 33, in predict_route
+    text = obj.predict(text)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/pipeline/predict.py", line 16, in predict
+    output = pipe(text,**gen_kwargs)[0]["summary_text"]
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/text2text_generation.py", line 265, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/text2text_generation.py", line 165, in __call__
+    result = super().__call__(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/base.py", line 1122, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/base.py", line 1129, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/base.py", line 1028, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/text2text_generation.py", line 187, in _forward
+    output_ids = self.model.generate(**model_inputs, **generate_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/generation/utils.py", line 1282, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/generation/utils.py", line 1155, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['max_lenght'] (note: typos in the generate arguments will also show up in this list)
+[2023-08-03 19:26:39,315: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 19:26:39,316: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 19:26:39,317: INFO: common: created directory at:artifacts:]
+[2023-08-03 19:26:39,317: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-08-03 19:26:46,906: ERROR: h11_impl: Exception in ASGI application
+:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 404, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 78, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/fastapi/applications.py", line 269, in __call__
+    await super().__call__(scope, receive, send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/applications.py", line 124, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/exceptions.py", line 93, in __call__
+    raise exc
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/exceptions.py", line 82, in __call__
+    await self.app(scope, receive, sender)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 21, in __call__
+    raise e
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/fastapi/middleware/asyncexitstack.py", line 18, in __call__
+    await self.app(scope, receive, send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/routing.py", line 670, in __call__
+    await route.handle(scope, receive, send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/routing.py", line 266, in handle
+    await self.app(scope, receive, send)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/starlette/routing.py", line 65, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/fastapi/routing.py", line 227, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/fastapi/routing.py", line 160, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/app.py", line 36, in predict_route
+    raise e
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/app.py", line 33, in predict_route
+    text = obj.predict(text)
+           ^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/pipeline/predict.py", line 16, in predict
+    output = pipe(text,**generate_kwargs)[0]["summary_text"]
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/text2text_generation.py", line 265, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/text2text_generation.py", line 165, in __call__
+    result = super().__call__(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/base.py", line 1122, in __call__
+    return self.run_single(inputs, preprocess_params, forward_params, postprocess_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/base.py", line 1129, in run_single
+    model_outputs = self.forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/base.py", line 1028, in forward
+    model_outputs = self._forward(model_inputs, **forward_params)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/pipelines/text2text_generation.py", line 187, in _forward
+    output_ids = self.model.generate(**model_inputs, **generate_kwargs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/utils/_contextlib.py", line 115, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/generation/utils.py", line 1282, in generate
+    self._validate_model_kwargs(model_kwargs.copy())
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/generation/utils.py", line 1155, in _validate_model_kwargs
+    raise ValueError(
+ValueError: The following `model_kwargs` are not used by the model: ['max_lenght'] (note: typos in the generate arguments will also show up in this list)
+[2023-08-03 19:27:24,175: INFO: server: Shutting down:]
+[2023-08-03 19:27:24,276: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 19:27:24,277: INFO: on: Application shutdown complete.:]
+[2023-08-03 19:27:24,277: INFO: server: Finished server process [56225]:]
+[2023-08-03 19:27:30,204: INFO: instantiator: Created a temporary directory at /tmp/tmpvskqpqov:]
+[2023-08-03 19:27:30,204: INFO: instantiator: Writing /tmp/tmpvskqpqov/_remote_module_non_scriptable.py:]
+[2023-08-03 19:27:30,407: INFO: server: Started server process [67648]:]
+[2023-08-03 19:27:30,407: INFO: on: Waiting for application startup.:]
+[2023-08-03 19:27:30,407: INFO: on: Application startup complete.:]
+[2023-08-03 19:27:30,407: INFO: server: Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit):]
+[2023-08-03 19:28:02,677: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 19:28:02,679: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 19:28:02,680: INFO: common: created directory at:artifacts:]
+[2023-08-03 19:28:02,680: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-08-03 19:31:48,415: INFO: server: Shutting down:]
+[2023-08-03 19:31:48,516: INFO: on: Waiting for application shutdown.:]
+[2023-08-03 19:31:48,517: INFO: on: Application shutdown complete.:]
+[2023-08-03 19:31:48,517: INFO: server: Finished server process [67648]:]
