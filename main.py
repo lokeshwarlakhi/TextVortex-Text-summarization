@@ -72,6 +72,7 @@ except Exception as e:
 
 # torch.cuda.empty_cache() 
 
+#this below code is for model evaluation
 STAGE_NAME = "Model Evaluation Stage"
 try:
     logger.info(f">>>>>>>> stage {STAGE_NAME} started <<<<<<<<")
