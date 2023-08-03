@@ -554,3 +554,827 @@ Traceback (most recent call last):
     with open(tokenizer_config_file, "w", encoding="utf-8") as f:
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'artifacts/model_trainer\\tokenizer \\tokenizer_config.json'
+[2023-07-30 14:53:11,019: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-30 14:53:11,020: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 14:53:11,021: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 14:53:11,022: INFO: common: created directory at:artifacts:]
+[2023-07-30 14:53:11,022: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 14:53:14,412: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with folowiwng info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 33BE:2C7276:1D459A:29A1C7:64C62BFE
+Accept-Ranges: bytes
+Date: Sun, 30 Jul 2023 09:23:12 GMT
+Via: 1.1 varnish
+X-Served-By: cache-hyd1100027-HYD
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1690708992.708936,VS0,VE820
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f075b90ac434fbf3f87ea1a55dc9785b65005e96
+Expires: Sun, 30 Jul 2023 09:28:12 GMT
+Source-Age: 0
+
+:]
+[2023-07-30 14:53:14,545: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 14:53:14,545: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-30 14:53:14,546: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 14:53:14,547: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 14:53:14,547: INFO: common: created directory at:artifacts:]
+[2023-07-30 14:53:14,547: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 14:53:14,547: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 14:53:14,634: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 14:53:14,634: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-30 14:53:14,636: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 14:53:14,637: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 14:53:14,637: INFO: common: created directory at:artifacts:]
+[2023-07-30 14:53:14,637: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-30 14:53:21,286: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 14:53:21,286: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-30 14:53:21,288: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 14:53:21,289: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 14:53:21,289: INFO: common: created directory at:artifacts:]
+[2023-07-30 14:53:21,289: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 14:58:49,398: ERROR: main: Using the `Trainer` with `PyTorch` requires `accelerate>=0.20.1`: Please run `pip install transformers[torch]` or `pip install accelerate -U`:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/main.py", line 45, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/components/model_trainer.py", line 29, in train
+    trainer_args = TrainingArguments(
+                   ^^^^^^^^^^^^^^^^^^
+  File "<string>", line 112, in __init__
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/training_args.py", line 1372, in __post_init__
+    and (self.device.type != "cuda")
+         ^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/training_args.py", line 1795, in device
+    return self._setup_devices
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/utils/generic.py", line 54, in __get__
+    cached = self.fget(obj)
+             ^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/training_args.py", line 1716, in _setup_devices
+    raise ImportError(
+ImportError: Using the `Trainer` with `PyTorch` requires `accelerate>=0.20.1`: Please run `pip install transformers[torch]` or `pip install accelerate -U`
+[2023-07-30 15:05:42,980: INFO: instantiator: Created a temporary directory at /tmp/tmpwf55nscl:]
+[2023-07-30 15:05:42,980: INFO: instantiator: Writing /tmp/tmpwf55nscl/_remote_module_non_scriptable.py:]
+[2023-07-30 15:05:43,141: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-30 15:05:43,143: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:05:43,144: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:05:43,144: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:05:43,144: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:05:43,144: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:05:43,250: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:05:43,250: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-30 15:05:43,252: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:05:43,252: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:05:43,253: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:05:43,253: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:05:43,253: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:05:43,351: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:05:43,351: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-30 15:05:43,353: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:05:43,354: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:05:43,354: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:05:43,354: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-30 15:05:45,114: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:05:45,114: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-30 15:05:45,116: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:05:45,116: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:05:45,116: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:05:45,116: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 15:05:57,162: ERROR: main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/main.py", line 45, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/components/model_trainer.py", line 42, in train
+    trainer.train()
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-07-30 15:27:34,186: INFO: instantiator: Created a temporary directory at /tmp/tmpq5k3hvh6:]
+[2023-07-30 15:27:34,186: INFO: instantiator: Writing /tmp/tmpq5k3hvh6/_remote_module_non_scriptable.py:]
+[2023-07-30 15:27:34,353: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-30 15:27:34,354: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:27:34,355: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:27:34,355: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:27:34,355: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:27:34,355: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:27:34,464: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:27:34,464: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-30 15:27:34,465: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:27:34,466: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:27:34,466: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:27:34,466: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:27:34,466: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:27:34,566: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:27:34,566: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-30 15:27:34,568: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:27:34,569: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:27:34,569: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:27:34,569: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-30 15:27:36,042: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:27:36,042: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-30 15:27:36,044: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:27:36,045: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:27:36,045: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:27:36,045: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 15:27:48,535: ERROR: main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/main.py", line 45, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/components/model_trainer.py", line 42, in train
+    trainer.train()
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-07-30 15:31:42,815: INFO: instantiator: Created a temporary directory at /tmp/tmpo9rdtw4d:]
+[2023-07-30 15:31:42,815: INFO: instantiator: Writing /tmp/tmpo9rdtw4d/_remote_module_non_scriptable.py:]
+[2023-07-30 15:31:42,995: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-30 15:31:42,998: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:31:42,998: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:31:42,999: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:31:42,999: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:31:42,999: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:31:43,109: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:31:43,109: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-30 15:31:43,110: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:31:43,111: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:31:43,111: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:31:43,111: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:31:43,111: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:31:43,214: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:31:43,214: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-30 15:31:43,215: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:31:43,216: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:31:43,216: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:31:43,216: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-30 15:31:44,526: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:31:44,526: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-30 15:31:44,528: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:31:44,529: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:31:44,529: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:31:44,529: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 15:31:58,036: ERROR: main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/main.py", line 66, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/components/model_trainer.py", line 42, in train
+    trainer.train()
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-07-30 15:34:45,013: INFO: instantiator: Created a temporary directory at /tmp/tmpa6_im4jd:]
+[2023-07-30 15:34:45,013: INFO: instantiator: Writing /tmp/tmpa6_im4jd/_remote_module_non_scriptable.py:]
+[2023-07-30 15:34:45,182: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-30 15:34:45,184: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:34:45,185: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:34:45,185: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:34:45,185: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:34:45,185: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:34:45,287: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:34:45,287: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-30 15:34:45,289: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:34:45,289: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:34:45,290: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:34:45,290: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:34:45,290: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:34:45,384: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:34:45,384: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-30 15:34:45,385: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:34:45,386: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:34:45,386: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:34:45,386: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-30 15:34:46,392: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:34:46,392: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-30 15:34:46,393: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:34:46,394: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:34:46,394: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:34:46,394: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 15:34:56,839: ERROR: main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/main.py", line 66, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/components/model_trainer.py", line 42, in train
+    trainer.train()
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-07-30 15:37:25,268: INFO: instantiator: Created a temporary directory at /tmp/tmp2iciynq2:]
+[2023-07-30 15:37:25,268: INFO: instantiator: Writing /tmp/tmp2iciynq2/_remote_module_non_scriptable.py:]
+[2023-07-30 15:37:25,411: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-30 15:37:25,413: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:37:25,415: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:37:25,415: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:37:25,415: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:37:25,415: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:37:25,519: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:37:25,519: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-30 15:37:25,521: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:37:25,522: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:37:25,522: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:37:25,522: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:37:25,522: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:37:25,623: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:37:25,623: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-30 15:37:25,625: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:37:25,626: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:37:25,626: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:37:25,626: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-30 15:37:26,920: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:37:26,920: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-30 15:37:26,921: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:37:26,922: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:37:26,922: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:37:26,922: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 15:37:37,958: ERROR: main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/main.py", line 66, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/components/model_trainer.py", line 42, in train
+    trainer.train()
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-07-30 15:39:56,513: INFO: instantiator: Created a temporary directory at /tmp/tmpihlhc561:]
+[2023-07-30 15:39:56,513: INFO: instantiator: Writing /tmp/tmpihlhc561/_remote_module_non_scriptable.py:]
+[2023-07-30 15:39:56,636: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-30 15:39:56,638: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:39:56,639: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:39:56,639: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:39:56,639: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:39:56,639: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:39:56,743: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:39:56,743: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-30 15:39:56,744: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:39:56,745: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:39:56,745: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:39:56,745: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 15:39:56,745: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 15:39:56,841: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:39:56,841: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-30 15:39:56,843: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:39:56,843: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:39:56,843: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:39:56,844: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-30 15:39:58,257: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 15:39:58,268: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-30 15:39:58,270: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 15:39:58,271: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 15:39:58,271: INFO: common: created directory at:artifacts:]
+[2023-07-30 15:39:58,271: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 15:40:09,448: ERROR: main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/main.py", line 60, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/components/model_trainer.py", line 42, in train
+    trainer.train()
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.80 GiB total capacity; 5.40 GiB already allocated; 53.88 MiB free; 5.64 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-07-30 16:44:49,276: INFO: instantiator: Created a temporary directory at /tmp/tmpgzkgsb6w:]
+[2023-07-30 16:44:49,276: INFO: instantiator: Writing /tmp/tmpgzkgsb6w/_remote_module_non_scriptable.py:]
+[2023-07-30 16:44:49,498: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-30 16:44:49,501: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:44:49,502: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:44:49,502: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:44:49,502: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 16:44:49,502: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 16:44:49,660: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 16:44:49,660: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-30 16:44:49,662: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:44:49,663: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:44:49,664: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:44:49,664: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 16:44:49,664: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 16:44:49,816: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 16:44:49,816: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-30 16:44:49,818: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:44:49,819: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:44:49,820: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:44:49,820: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-30 16:44:52,270: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 16:44:52,279: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-30 16:44:52,283: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:44:52,284: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:44:52,284: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:44:52,284: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 16:45:09,761: ERROR: main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.81 GiB total capacity; 4.26 GiB already allocated; 387.31 MiB free; 4.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/main.py", line 60, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/components/model_trainer.py", line 42, in train
+    trainer.train()
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.81 GiB total capacity; 4.26 GiB already allocated; 387.31 MiB free; 4.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-07-30 16:45:57,028: INFO: instantiator: Created a temporary directory at /tmp/tmpwuysgoya:]
+[2023-07-30 16:45:57,028: INFO: instantiator: Writing /tmp/tmpwuysgoya/_remote_module_non_scriptable.py:]
+[2023-07-30 16:45:57,204: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-30 16:45:57,207: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:45:57,208: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:45:57,208: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:45:57,209: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 16:45:57,209: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 16:45:57,365: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 16:45:57,365: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-30 16:45:57,367: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:45:57,368: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:45:57,368: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:45:57,368: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 16:45:57,369: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 16:45:57,512: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 16:45:57,512: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-30 16:45:57,515: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:45:57,516: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:45:57,516: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:45:57,516: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-30 16:45:58,932: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 16:45:58,932: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-30 16:45:58,934: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:45:58,936: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:45:58,936: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:45:58,936: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 16:46:13,919: ERROR: main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.81 GiB total capacity; 4.26 GiB already allocated; 370.00 MiB free; 4.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/main.py", line 60, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/components/model_trainer.py", line 42, in train
+    trainer.train()
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.81 GiB total capacity; 4.26 GiB already allocated; 370.00 MiB free; 4.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-07-30 16:58:52,206: INFO: instantiator: Created a temporary directory at /tmp/tmpaqe5wvjt:]
+[2023-07-30 16:58:52,206: INFO: instantiator: Writing /tmp/tmpaqe5wvjt/_remote_module_non_scriptable.py:]
+[2023-07-30 16:58:52,386: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-07-30 16:58:52,389: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:58:52,390: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:58:52,390: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:58:52,390: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 16:58:52,391: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 16:58:52,549: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 16:58:52,550: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-07-30 16:58:52,552: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:58:52,553: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:58:52,553: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:58:52,554: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-07-30 16:58:52,554: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-07-30 16:58:52,698: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 16:58:52,698: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-07-30 16:58:52,701: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:58:52,702: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:58:52,702: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:58:52,702: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-07-30 16:58:54,618: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-07-30 16:58:54,618: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-07-30 16:58:54,621: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 16:58:54,622: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 16:58:54,622: INFO: common: created directory at:artifacts:]
+[2023-07-30 16:58:54,622: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-07-30 16:59:11,802: ERROR: main: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.81 GiB total capacity; 4.26 GiB already allocated; 123.06 MiB free; 4.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF:]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/main.py", line 60, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/pipeline/stage_04_model_trainer.py", line 14, in main
+    model_trainer_config.train()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex-Text-summarization/src/TextVortex/components/model_trainer.py", line 42, in train
+    trainer.train()
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1539, in train
+    return inner_training_loop(
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 1809, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/transformers/trainer.py", line 2665, in training_step
+    self.accelerator.backward(loss)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/accelerate/accelerator.py", line 1853, in backward
+    loss.backward(**kwargs)
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/_tensor.py", line 487, in backward
+    torch.autograd.backward(
+  File "/home/lokeswarlakhineni/anaconda3/envs/mlops/lib/python3.11/site-packages/torch/autograd/__init__.py", line 200, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 376.00 MiB (GPU 0; 5.81 GiB total capacity; 4.26 GiB already allocated; 123.06 MiB free; 4.46 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF
+[2023-07-30 17:05:27,623: INFO: instantiator: Created a temporary directory at /tmp/tmpr8li6e2i:]
+[2023-07-30 17:05:27,624: INFO: instantiator: Writing /tmp/tmpr8li6e2i/_remote_module_non_scriptable.py:]
+[2023-07-30 17:05:40,641: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-07-30 17:05:40,646: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-07-30 17:05:40,648: INFO: common: created directory at:artifacts:]
+[2023-07-30 17:05:40,649: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-08-01 09:33:19,404: INFO: instantiator: Created a temporary directory at /tmp/tmp7qssv9qr:]
+[2023-08-01 09:33:19,404: INFO: instantiator: Writing /tmp/tmp7qssv9qr/_remote_module_non_scriptable.py:]
+[2023-08-01 09:33:19,648: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-08-01 09:33:19,652: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-01 09:33:19,653: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-01 09:33:19,654: INFO: common: created directory at:artifacts:]
+[2023-08-01 09:33:19,654: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 16:50:59,480: INFO: instantiator: Created a temporary directory at /tmp/tmp8a4fz6jy:]
+[2023-08-03 16:50:59,481: INFO: instantiator: Writing /tmp/tmp8a4fz6jy/_remote_module_non_scriptable.py:]
+[2023-08-03 16:50:59,655: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-08-03 16:50:59,657: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 16:50:59,658: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 16:50:59,658: INFO: common: created directory at:artifacts:]
+[2023-08-03 16:50:59,658: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 16:51:02,886: INFO: data_ingestion: artifacts/data_ingestion/data.zip downloaded! with folowiwng info: 
+Connection: close
+Content-Length: 7903594
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dbc016a060da18070593b83afff580c9b300f0b6ea4147a7988433e04df246ca"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5B8E:3D766D:1F0EEC:2AA682:64CB8D9B
+Accept-Ranges: bytes
+Date: Thu, 03 Aug 2023 11:21:02 GMT
+Via: 1.1 varnish
+X-Served-By: cache-ccu830044-CCU
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1691061660.397698,VS0,VE1728
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 773c1668a04e36b0f7ae025ff7d5508c0d871d5a
+Expires: Thu, 03 Aug 2023 11:26:02 GMT
+Source-Age: 1
+
+:]
+[2023-08-03 16:51:03,014: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 16:51:03,014: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-08-03 16:51:03,016: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 16:51:03,016: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 16:51:03,016: INFO: common: created directory at:artifacts:]
+[2023-08-03 16:51:03,016: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 16:51:03,017: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 16:51:03,107: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 16:51:03,107: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-08-03 16:51:03,109: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 16:51:03,110: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 16:51:03,110: INFO: common: created directory at:artifacts:]
+[2023-08-03 16:51:03,110: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-08-03 16:51:05,650: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 16:51:05,650: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-08-03 16:51:05,652: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 16:51:05,652: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 16:51:05,652: INFO: common: created directory at:artifacts:]
+[2023-08-03 16:51:05,653: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-08-03 17:22:13,059: INFO: main: >>>>>>>>>> stageModel Training Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:22:13,060: INFO: main: >>>>>>>> stage Model Evaluation Stage started <<<<<<<<:]
+[2023-08-03 17:22:13,066: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:22:13,068: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:22:13,068: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:22:13,069: ERROR: main: 'ModelEvaluation' object has no attribute 'train':]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/main.py", line 79, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/pipeline/stage_05_model_evaluation.py", line 14, in main
+    model_evaluation_config.train()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ModelEvaluation' object has no attribute 'train'
+[2023-08-03 17:23:34,604: INFO: instantiator: Created a temporary directory at /tmp/tmpne22fsm_:]
+[2023-08-03 17:23:34,604: INFO: instantiator: Writing /tmp/tmpne22fsm_/_remote_module_non_scriptable.py:]
+[2023-08-03 17:23:34,786: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-08-03 17:23:34,787: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:23:34,788: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:23:34,788: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:23:34,788: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 17:23:34,788: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 17:23:34,893: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:23:34,893: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-08-03 17:23:34,895: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:23:34,896: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:23:34,896: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:23:34,896: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 17:23:34,896: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 17:23:34,994: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:23:34,994: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-08-03 17:23:34,996: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:23:34,996: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:23:34,997: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:23:34,997: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-08-03 17:23:36,034: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:23:36,034: INFO: main: >>>>>>>> stage Model Training Stage started <<<<<<<<:]
+[2023-08-03 17:23:36,036: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:23:36,037: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:23:36,037: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:23:36,037: INFO: common: created directory at:artifacts/model_trainer:]
+[2023-08-03 17:24:14,034: INFO: instantiator: Created a temporary directory at /tmp/tmp0ria641i:]
+[2023-08-03 17:24:14,035: INFO: instantiator: Writing /tmp/tmp0ria641i/_remote_module_non_scriptable.py:]
+[2023-08-03 17:24:14,155: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-08-03 17:24:14,156: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:24:14,157: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:24:14,157: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:24:14,157: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 17:24:14,157: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 17:24:14,259: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:24:14,259: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-08-03 17:24:14,260: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:24:14,261: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:24:14,261: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:24:14,261: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 17:24:14,261: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 17:24:14,363: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:24:14,363: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-08-03 17:24:14,365: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:24:14,365: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:24:14,366: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:24:14,366: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-08-03 17:24:15,783: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:24:15,783: INFO: main: >>>>>>>> stage Model Evaluation Stage started <<<<<<<<:]
+[2023-08-03 17:24:15,785: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:24:15,785: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:24:15,785: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:24:15,786: ERROR: main: 'function' object has no attribute 'tokenizer_path':]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/main.py", line 79, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/pipeline/stage_05_model_evaluation.py", line 14, in main
+    model_evaluation_config.evaluate()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/components/model_evaluation.py", line 59, in evaluate
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'tokenizer_path'
+[2023-08-03 17:26:16,932: INFO: instantiator: Created a temporary directory at /tmp/tmp1onzg1pf:]
+[2023-08-03 17:26:16,932: INFO: instantiator: Writing /tmp/tmp1onzg1pf/_remote_module_non_scriptable.py:]
+[2023-08-03 17:26:17,055: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-08-03 17:26:17,056: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:26:17,057: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:26:17,057: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:26:17,057: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 17:26:17,058: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 17:26:17,157: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:26:17,158: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-08-03 17:26:17,159: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:26:17,160: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:26:17,160: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:26:17,160: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 17:26:17,160: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 17:26:17,249: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:26:17,249: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-08-03 17:26:17,250: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:26:17,251: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:26:17,251: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:26:17,251: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-08-03 17:26:18,149: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:26:18,149: INFO: main: >>>>>>>> stage Model Evaluation Stage started <<<<<<<<:]
+[2023-08-03 17:26:18,151: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:26:18,152: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:26:18,152: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:26:18,152: ERROR: main: 'function' object has no attribute 'tokenizer_path':]
+Traceback (most recent call last):
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/main.py", line 79, in <module>
+    model_training.main()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/pipeline/stage_05_model_evaluation.py", line 14, in main
+    model_evaluation_config.evaluate()
+  File "/home/lokeswarlakhineni/Desktop/mycodes/TextVortex/src/TextVortex/components/model_evaluation.py", line 59, in evaluate
+    tokenizer = AutoTokenizer.from_pretrained(self.config.tokenizer_path)
+                                              ^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'function' object has no attribute 'tokenizer_path'
+[2023-08-03 17:29:49,445: INFO: instantiator: Created a temporary directory at /tmp/tmp10lkzwfd:]
+[2023-08-03 17:29:49,445: INFO: instantiator: Writing /tmp/tmp10lkzwfd/_remote_module_non_scriptable.py:]
+[2023-08-03 17:29:49,578: INFO: main: >>>>>>>> stage data ingestion Stage started <<<<<<<<:]
+[2023-08-03 17:29:49,580: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:29:49,581: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:29:49,581: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:29:49,581: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 17:29:49,581: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 17:29:49,679: INFO: main: >>>>>>>>>> stagedata ingestion Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:29:49,679: INFO: main: >>>>>>>> stage Data Validation Stage started <<<<<<<<:]
+[2023-08-03 17:29:49,680: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:29:49,681: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:29:49,681: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:29:49,682: INFO: common: created directory at:artifacts/data_ingestion:]
+[2023-08-03 17:29:49,682: INFO: data_ingestion: file alredy exists of size : ~7718 KB:]
+[2023-08-03 17:29:49,781: INFO: main: >>>>>>>>>> stageData Validation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:29:49,781: INFO: main: >>>>>>>> stage Data Transformation Stage started <<<<<<<<:]
+[2023-08-03 17:29:49,782: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:29:49,783: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:29:49,783: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:29:49,783: INFO: common: created directory at:artifacts/data_transformation:]
+[2023-08-03 17:29:51,168: INFO: main: >>>>>>>>>> stageData Transformation Stage completed <<<<<<<
+
+ x==============x:]
+[2023-08-03 17:29:51,169: INFO: main: >>>>>>>> stage Model Evaluation Stage started <<<<<<<<:]
+[2023-08-03 17:29:51,170: INFO: common: yaml file: config/config.yaml loaded sucessfully:]
+[2023-08-03 17:29:51,171: INFO: common: yaml file: params.yaml loaded sucessfully:]
+[2023-08-03 17:29:51,171: INFO: common: created directory at:artifacts:]
+[2023-08-03 17:29:51,172: INFO: common: created directory at:artifacts/model_evaluation:]
+[2023-08-03 17:32:29,064: INFO: rouge_scorer: Using default tokenizer.:]
+[2023-08-03 17:32:29,184: INFO: main: >>>>>>>>>> stageModel Evaluation Stage completed <<<<<<<
+
+ x==============x:]

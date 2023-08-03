@@ -17,6 +17,7 @@ src/TextVortex/constants/__init__.py
 src/TextVortex/entity/__init__.py
 src/TextVortex/logging/__init__.py
 src/TextVortex/pipeline/__init__.py
+src/TextVortex/pipeline/predict.py
 src/TextVortex/pipeline/stage_01_data_ingestion.py
 src/TextVortex/pipeline/stage_02_data_validation.py
 src/TextVortex/pipeline/stage_03_data_transformation.py
